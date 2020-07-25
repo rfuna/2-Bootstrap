@@ -1,8 +1,9 @@
-font-family: "Open Sans", sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", curs ive;
+    font-family: "Lobster", cursive;
 }
 
 h2 {
@@ -29,3 +30,4 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
