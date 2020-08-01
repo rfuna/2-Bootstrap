@@ -23,6 +23,9 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
           <div class="row">
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+              <img class="img-fluid" src="img/logo.png" alt="Nucamp Logo">
+            </div>
               <div class="col">
                 <h1>NuCamp</h1>
                 <h2>a better way to camp</h2>
@@ -32,16 +35,19 @@
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nucampNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-          <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
-        </ul>
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="minilogo" height="30" width="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -51,8 +57,13 @@
             <h2 class="text-sm-right">Discover & Review</h2>
           </div>  
           <div class="col">
-            <h3>Our Campsites</h3>
-            <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+            <div class="media">
+              <img class="d-flex img-thumbnail mr-3" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb trail thumbnail">
+              <div class="media-body align-self-center">
+                <h3>Our Campsites</h3>
+                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+              </div>
+            </div>
           </div>
       </div>
     </div>
@@ -75,8 +86,15 @@
             <h2 class="text-sm-right">Our Community Partners</h2>
           </div>
           <div class="col">
-            <h3>Bootstrap Outfitters</h3>
-            <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+              <div class="media">
+                <img class="d-flex img-thumbnail mr-3" src="img/bootstrap-thumb.png" alt="Bootstrap thumb">
+
+                <div class="media-body align-self-center">
+                  <h3>Bootstrap Outfitters</h3>
+                  <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+                </div>
+
+              </div>
           </div>
       </div>      
     </div>
