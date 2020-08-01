@@ -116,25 +116,31 @@
                 <!-- row 1 -->
                 <div class="row form-group">
                   <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
-                      <select name="numCampers" id="numCampers" class="form-control col">
-                        <option selected>Select...</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                      </select>
+                      <div class="col">
+                        <select name="numCampers" id="numCampers" class="form-control">
+                          <option selected>Select...</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                      </div>
                 </div>
                 <!-- row 2 -->
-                <div class="row form-group col-form-label">
-                  <label class="col-sm-6" for="date">Date</label>
-                  <input class="col form-control" type="date" name="date" id="date" placeholder="">
+                <div class="row form-group">
+                  <label class="col-sm-6 col-form-label" for="date">Date</label>
+                  <div class="col-sm-6">
+                    <input class="form-control" type="date" name="date" id="date" placeholder="">
+                  </div>
                 </div>
                 <!-- row 3 -->
                 <!-- how to get button to align left? -->
-                <div class="row form-group col-form-label">
+                <div class="row form-group">
+                  <div class="col">
                   <button type="submit" class="btn btn-primary">Search</button>
+                  </div>
                 </div>
               </form>
 
