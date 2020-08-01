@@ -30,6 +30,10 @@
                 <h1>NuCamp</h1>
                 <h2>a better way to camp</h2>
               </div>
+              <!-- how to get button to go to the right and the text on one line  -->
+              <div class="col-md-4 col-xl-2">
+                <a href="#reserveForm"><button class="btn btn-info btn-lg mt-3">Reserve Campsite</button></a>
+              </div>
           </div>
         </div>
     </header>
@@ -74,8 +78,13 @@
               <h2 >Featured Campsites</h2>
           </div>
           <div class="col">
-              <h3>React Lake Campground</h3>
-              <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+            <div class="media">
+              <div class="media-body align-self-center">
+                <h3>React Lake Campground</h3>
+                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+              </div>
+              <img class="d-flex img-thumbnail ml-3" src="img/react-lake-thumb.jpg" alt="React lake thumbnail">
+            </div>
           </div>
       </div> 
     </div>
@@ -96,7 +105,49 @@
 
               </div>
           </div>
-      </div>      
+      </div> 
+      
+      <div class="row row-content align-items-center">
+        <div class="col-sm-6 mx-auto">
+          <div class="card">
+            <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+            <div class="card-body">
+              <form id="reserveForm">
+                <!-- row 1 -->
+                <div class="row form-group">
+                  <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                      <select name="numCampers" id="numCampers" class="form-control col">
+                        <option selected>Select...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                </div>
+                <!-- row 2 -->
+                <div class="row form-group col-form-label">
+                  <label class="col-sm-6" for="date">Date</label>
+                  <input class="col form-control" type="date" name="date" id="date" placeholder="">
+                </div>
+                <!-- row 3 -->
+                <!-- how to get button to align left? -->
+                <div class="row form-group col-form-label">
+                  <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+              </form>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
     </div>
 
     <footer class="site-footer">
