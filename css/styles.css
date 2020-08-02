@@ -35,3 +35,8 @@ site-footer {
 .navbar {
     background-color: #901CAD;
 }
+
+.oneline {
+   white-space: nowrap;
+   text-align: center;
+}
