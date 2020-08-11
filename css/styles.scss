@@ -1,0 +1,91 @@
+// these are made up variables to simplify
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-ray: red;
+// this was the the thin dark gradient behind carousel captions to make it easier to see
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+header h2 {
+  color: $color-pale;
+}
+
+site-footer {
+  background-image: linear-gradient($color-pale, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    $color-secondary,
+    $color-primary,
+    $color-dark
+  );
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: $color-mid;
+}
+
+.oneline {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid $color-secondary;
+}
+
+.colborder {
+  border: green 3px solid;
+}
+
+.rowborder {
+    border: red 3px solid;
+}
+
+#carouselButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+}
