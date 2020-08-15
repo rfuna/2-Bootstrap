@@ -4,7 +4,8 @@ $color-secondary: #5637dd;
 $color-pale: #cec8ff;
 $color-mid: #901cad;
 $color-dark: #60106b;
-$color-ray: red;
+$color-teal: #17a2b8;
+
 // this was the the thin dark gradient behind carousel captions to make it easier to see
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
@@ -89,3 +90,24 @@ site-footer {
   right: 0;
   z-index: 100;
 }
+
+#reserveModal {
+  .modal-header {
+    background-color: $color-teal;
+    color: white;
+  }
+}
+
+#loginModal {
+  .modal-header {
+    background-color: $color-mid;
+    color: white;
+  }
+}
+
+// #reserveModal, #loginModal {
+//   .modal-header {
+//     background-color: $color-teal;
+//     color: white;
+//   }
+// }
